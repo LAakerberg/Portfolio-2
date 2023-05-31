@@ -14,7 +14,6 @@ export function Header() {
         <div className="topping">
           <div className="logo">
             <h1 className="logo_type">Onedesign</h1>
-            <h1 className="logo_type_font">Onedesign</h1>
             <p className="logo-memo">Only one design needed</p>
           </div>
 
