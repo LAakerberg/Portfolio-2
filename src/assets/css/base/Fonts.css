@@ -1,36 +1,54 @@
 @layer base {
   @font-face {
-    font-family: 'Squada';
-    font-weight: 500;
-    src: url(/src/assets/fonts/SquadaOne-Regular.ttf) format('ttf');
-  }
-  @font-face {
-    font-family: 'Merienda-Bold';
-    src: url(/src/assets/fonts/Merienda-Bold.ttf) format('ttf');
+    font-family: 'Boogaloo';
+    src: url(/src/assets/fonts/Boogaloo-Regular.ttf) format('TrueType');
   }
   @font-face {
     font-family: 'Merienda-Regular';
-    src: url(/src/assets/fonts/Merienda-Regular.ttf) format('ttf');
+    src: url(/src/assets/fonts/Merienda-Regular.ttf) format('TrueType');
   }
   @font-face {
-    font-family: 'SquadaOne';
-    font-weight: 500;
-    src: url(../../fonts/SquadaOne-Regular.ttf) format('truetype');
-  }
-  @font-face {
-    font-family: 'Boogaloo';
-    src: url(/src/assets/fonts/Boogaloo-Regular.ttf) format('ttf');
+    font-family: 'Squada One';
+    src: url(/src/assets/fonts/SquadaOne-Regular.ttf) format('TrueType');
   }
 }
 
 .logo_type {
-  font-family: SquadaOne;
-  font-size: 4.8rem;
-  color: red;
+  font-family: 'Squada One';
+  font-size: 4.5rem;
+  padding: 0px;
+  color: #003545;
+  cursor: pointer;
 }
 
-.logo_type_font {
-  font-family: Squada;
-  font-size: 4.8rem;
-  color: rgb(53, 133, 37);
+.logo-memo {
+  font-family: 'Merienda-Regular';
+  font-size: 1.2em;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #003545;
+}
+
+.typo {
+  font-family: 'Boogaloo';
+  font-size: 2.2em;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #003545;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Merienda-Regular';
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  font-family: 'Merienda-Regular';
+  padding: 0px;
+  margin: 0px;
 }

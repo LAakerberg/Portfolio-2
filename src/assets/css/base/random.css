@@ -1,30 +1,3 @@
-h1,
-h2,
-h3,
-h4 {
-  font-family: 'Merienda-Regular';
-  padding: 0px;
-  margin: 0px;
-}
-
-h1 {
-  font-size: 2em;
-}
-
-h2 {
-  font-size: 1.6em;
-}
-
-h3 {
-  font-size: 1.3em;
-}
-
-p {
-  font-family: 'Merienda-Regular';
-  padding: 0px;
-  margin: 0px;
-}
-
 /* Header style */
 
 header {
@@ -37,20 +10,20 @@ header {
   flex-direction: column;
 }
 
-.topping {
+/* .topping {
   height: 220px;
   display: flex;
   flex-direction: row;
-}
+} */
 
-.logo {
+/* .logo {
   flex: 1;
   display: flex;
   flex-direction: column;
   margin: 0px auto;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .logo-link {
   flex: 1;
@@ -63,24 +36,16 @@ header {
 }
 
 .logo-text {
-  font-family: SquadaOne;
+  font-family: Squada One;
   font-size: 4.5em;
   text-transform: uppercase;
   color: #003545;
   cursor: pointer;
 }
 
-.logo-memo {
-  font-family: 'Merienda-Regular';
-  font-size: 1.2em;
-  font-style: italic;
-  text-transform: capitalize;
-  color: #003545;
-}
-
-.sidemenu {
+/* .sidemenu {
   flex: 0;
-}
+} */
 
 .nav-menu {
   position: fixed;
@@ -110,9 +75,6 @@ nav ul {
 }
 
 nav li {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  font-size: 1.8rem;
   text-transform: uppercase;
   padding: 0px 40px;
   margin: 0px 10px;

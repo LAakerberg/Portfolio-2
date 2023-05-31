@@ -1,3 +1,8 @@
 export function Home() {
-  return <>Hello Main</>;
+  return (
+    <>
+      <p className="typo">Hello Main</p>
+      <p className="">Hello Main</p>
+    </>
+  );
 }
