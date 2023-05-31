@@ -1,13 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* @tailwind base; */
+@import 'tailwindcss/base';
+@import '/src/assets/css/base/base.css';
+/* @tailwind components; */
+@import 'tailwindcss/components';
+@import '/src/assets//css/components/components.css';
+/* @tailwind utilities; */
+@import 'tailwindcss/utilities';
+@import '/src/assets//css/utilities/utilities.css';
 
 #root {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
   margin: 0px auto;
-  background-color: #d9dfee;
 }
 
 @layer base {
@@ -22,7 +27,19 @@
 
 @layer base {
   body {
-    background-color: #1f2d3b;
-    border: 1px solid #1f2d3b;
+    background-size: 10%;
+    background: linear-gradient(
+      to bottom,
+      rgb(26, 26, 26) 0px,
+      rgb(56, 56, 56) 250px,
+      rgb(0, 112, 164) 250px,
+      rgb(0, 78, 114) 300px,
+      rgb(56, 56, 56) 300px,
+      rgb(0, 0, 0) 100%
+    );
   }
+}
+
+h1 {
+  font-family: SquadaOne;
 }

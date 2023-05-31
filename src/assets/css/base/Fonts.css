@@ -1,0 +1,36 @@
+@layer base {
+  @font-face {
+    font-family: 'Squada';
+    font-weight: 500;
+    src: url(/src/assets/fonts/SquadaOne-Regular.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Merienda-Bold';
+    src: url(/src/assets/fonts/Merienda-Bold.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Merienda-Regular';
+    src: url(/src/assets/fonts/Merienda-Regular.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'SquadaOne';
+    font-weight: 500;
+    src: url(../../fonts/SquadaOne-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Boogaloo';
+    src: url(/src/assets/fonts/Boogaloo-Regular.ttf) format('ttf');
+  }
+}
+
+.logo_type {
+  font-family: SquadaOne;
+  font-size: 4.8rem;
+  color: red;
+}
+
+.logo_type_font {
+  font-family: Squada;
+  font-size: 4.8rem;
+  color: rgb(53, 133, 37);
+}
