@@ -17,6 +17,10 @@ export function Main() {
   );
 }
 
+function RouteNotFound() {
+  return <div>Page not found</div>;
+}
+
 export default function App() {
   return (
     <>
@@ -24,6 +28,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<RouteNotFound />} />
         </Route>
       </Routes>
     </>

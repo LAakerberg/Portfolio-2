@@ -1,20 +1,43 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 export function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <>
       <header>
-        <div>
-          <h1 className="text-4xl border border-red-700">Header</h1>
-          <h2>Home</h2>
+        <div className="topping">
+          <div className="logo">
+            <h1 className="logo_type">Onedesign</h1>
+            <h1 className="logo_type_font">Onedesign</h1>
+            <p className="logo-memo">Only one design needed</p>
+          </div>
+
+          <div className="sidemenu"></div>
         </div>
-        <div>
+        <button className="hamburger" onClick={toggleMenu}>
+          <i className="menuIcon material-icons">
+            {isMenuOpen ? 'close' : 'menu'}
+          </i>
+        </button>
+        <div className={`nav-menu menu ${isMenuOpen ? 'showMenu' : ''}`}>
           <nav>
             <ul>
-              <li>
+              <li className="menuItem">
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              <li className="menuItem">
+                <Link to="/portfolio">Portfolio</Link>
+              </li>
+              <li className="menuItem">
+                <Link to="/project">Project</Link>
+              </li>
+              <li className="menuItem">
                 <Link to="/about">About</Link>
               </li>
             </ul>
