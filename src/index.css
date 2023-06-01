@@ -31,10 +31,10 @@
     background: linear-gradient(
       to bottom,
       rgb(26, 26, 26) 0px,
-      rgb(56, 56, 56) 250px,
-      rgb(0, 112, 164) 250px,
-      rgb(0, 78, 114) 300px,
-      rgb(56, 56, 56) 300px,
+      rgb(56, 56, 56) 220px,
+      rgb(0, 112, 164) 220px,
+      rgb(0, 78, 114) 270px,
+      rgb(56, 56, 56) 270px,
       rgb(0, 0, 0) 100%
     );
   }
