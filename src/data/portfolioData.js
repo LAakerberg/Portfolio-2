@@ -3,7 +3,7 @@ export const portfolio = [
     id: 0,
     title: 'Cross-course project',
     name: 'Rainydays',
-    slug: '',
+    keywords: [''],
     descriptions: `This was my first bigger project during my studies as a front-end developer.
                         The first edition was only made with HTML & CSS. The site has been developed and there is now
                         some Javascript included in the programming`,
@@ -18,7 +18,7 @@ export const portfolio = [
     id: 1,
     title: 'Semester Project 1',
     name: 'Community Science Museum',
-    slug: 'CSM',
+    keywords: ['CSM'],
     descriptions: `This was my second project during my studies as a front-end developer.
                         This is a site for CSM were kids, school classes and parents go visit the museum for educations.
                         The site as been built with HTML & CSS`,
@@ -33,7 +33,7 @@ export const portfolio = [
     id: 2,
     title: 'Project Exam 1',
     name: 'The one and only blog',
-    slug: 'One and only',
+    keywords: ['One and only'],
     descriptions: `This is my third project were we should build an blog and do API request to a backend that's was setup
                         with wordpress. The design is built as a headless.
                         The site is build with HTML, CSS & JavaScript`,
@@ -49,7 +49,7 @@ export const portfolio = [
     id: 3,
     title: 'Portfolio 1 CA',
     name: 'Onedesign Portfolio',
-    slug: 'Onedesign',
+    keywords: ['Onedesign'],
     descriptions: `This is my own portfolio site were you will find all of my completed/on-going and up-coming projects.
                         Here will I try to collect all of my libirayrs.`,
     imgThumb:
@@ -65,7 +65,7 @@ export const portfolio = [
     id: 4,
     title: 'Semester Project 2',
     name: 'New project',
-    slug: '',
+    keywords: [''],
     descriptions: `This is an upcoming project.`,
     imgThumb:
       '/src/assets/img/portfolio/alexander-sinn-KgLtFCgfC28-unsplash-640.jpg',
@@ -80,7 +80,7 @@ export const portfolio = [
     id: 5,
     title: 'JavaScript Frameworks CA',
     name: 'Hard core programming',
-    slug: '',
+    keywords: [''],
     descriptions: `This is an upcoming project.`,
     imgThumb: '',
     imgHigh: '',
@@ -93,7 +93,7 @@ export const portfolio = [
     id: 6,
     title: 'Project Exam 2',
     name: 'New project',
-    slug: '',
+    keywords: [''],
     descriptions: `This is an upcoming project.`,
     imgThumb:
       '/src/assets/img/portfolio/alexander-sinn-KgLtFCgfC28-unsplash-640.jpg',
@@ -108,7 +108,7 @@ export const portfolio = [
     id: 7,
     title: 'Portfolio 2',
     name: 'Onedesign Portfolio 2',
-    slug: 'Onedesign, Portfolio',
+    keywords: ['Onedesign', 'Portfolio'],
     descriptions: `Refactoring my old Portfolio site from regular HTML, CSS & Vanilla JavaScript to now include Vite.js as bundler and a dev server with React.js library, added TailwindCSS as a CSS Framework. `,
     imgThumb:
       '/src/assets/img/portfolio/emile-perron-xrVDYZRGdw4-unsplash-640.jpg',
@@ -123,7 +123,7 @@ export const portfolio = [
     id: 8,
     title: 'New project',
     name: 'New project',
-    slug: 'Onedesign',
+    keywords: ['Onedesign'],
     descriptions: `This is an upcoming project`,
     imgThumb:
       '/src/assets/img/portfolio/emile-perron-xrVDYZRGdw4-unsplash-640.jpg',
