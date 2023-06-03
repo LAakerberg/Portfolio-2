@@ -2,8 +2,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 export function Cards({ project, showInProgress }) {
-  console.log(project);
-
   Cards.propTypes = {
     project: PropTypes.string.isRequired,
     showInProgress: PropTypes.string.isRequired,
@@ -20,7 +18,7 @@ export function Cards({ project, showInProgress }) {
         {filteredProjects.map((pages) => (
           <div key={pages.id}>
             <Link to={`/project/${pages.id}`}>
-              <div className="bg-gradient-to-b from-gray-400 via-zinc-300 to-slate-100 card-bg outline outline-1 outline-slate-500 rounded-lg p-2 h-96 max-w-xs m-auto">
+              <div className="bg-gradient-to-b from-gray-300 via-zinc-300 to-slate-100 card-bg outline outline-1 outline-slate-500 rounded-lg p-2 h-96 max-h-full max-w-xs m-auto">
                 <div>
                   <h4 className="font-['ComicNeue'] font-bold">
                     {pages.title}
@@ -29,14 +27,14 @@ export function Cards({ project, showInProgress }) {
                 <div className="h-40">
                   <img
                     src={pages.imgThumb}
-                    className="object-cover h-40 w-full"
+                    className="object-cover h-40 w-full rounded-lg"
                   />
                 </div>
                 <div>
                   <h5 className="font-['Boogaloo']">{pages.name}</h5>
                 </div>
                 <div>
-                  <p>{pages.descriptions.slice(0, 150)}</p>
+                  <p className="">{pages.descriptions.slice(0, 150)}</p>
                 </div>
               </div>
             </Link>
