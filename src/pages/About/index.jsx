@@ -3,7 +3,7 @@ export function About() {
     <>
       <div className="flex pt-6">
         <div>
-          <p>Hello about me</p>
+          <p>Hello, this is about me and my business</p>
         </div>
       </div>
     </>
