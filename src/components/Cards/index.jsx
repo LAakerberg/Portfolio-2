@@ -36,7 +36,7 @@ export function Cards({ project, showInProgress }) {
                   <h5 className="font-['Boogaloo']">{pages.name}</h5>
                 </div>
                 <div>
-                  <p>{pages.descriptions.slice(0, 55)}</p>
+                  <p>{pages.descriptions.slice(0, 150)}</p>
                 </div>
               </div>
             </Link>
