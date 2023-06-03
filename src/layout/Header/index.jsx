@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Nav } from '../Navigation';
+import { Nav } from '../Navigation/index';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +15,7 @@ export function Header() {
         <div className="flex flex-row h-48">
           <div className="flex-1 flex flex-col m-0 justify-center items-center">
             <h1 className="logo_type uppercase">Onedesign</h1>
-            <h4 className="logo-memo">Only one design needed</h4>
+            <p className="logo-memo">Only one design needed</p>
           </div>
 
           <div className="flex-0 md:flex-1"></div>
@@ -27,7 +27,7 @@ export function Header() {
           </i>
         </button>
         <div className={`nav-menu menu ${isMenuOpen ? 'showMenu' : ''}`}>
-          <Nav />
+          <Nav toggleMenu={toggleMenu} />
         </div>
       </header>
     </>
