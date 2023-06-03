@@ -19,7 +19,6 @@
 
 .logo_type {
   font-family: 'Squada One';
-  font-size: 4.5rem;
   padding: 0px;
   color: #003545;
   cursor: pointer;
@@ -55,4 +54,5 @@ p {
   font-family: 'ComicNeue';
   padding: 0px;
   margin: 0px;
+  font-size: 1rem;
 }
