@@ -14,7 +14,7 @@ export function Header() {
         {/* Height should be in 220 px normally */}
         <div className="flex flex-row h-48">
           <div className="flex-1 flex flex-col m-0 justify-center items-center">
-            <h1 className="logo_type uppercase">Onedesign</h1>
+            <h1 className="md:text-7xl logo_type uppercase">Onedesign</h1>
             <p className="logo-memo">Only one design needed</p>
           </div>
 
