@@ -4,6 +4,7 @@ import { About } from './pages/About';
 import { Layout } from './layout';
 import { Portfolio } from './pages/Portfolio';
 import { Project } from './pages/Project';
+import { SpecificProject } from './pages/Project/Specific';
 
 export function Main() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/project/:id" element={<SpecificProject />} />
           <Route path="*" element={<RouteNotFound />} />
         </Route>
       </Routes>
