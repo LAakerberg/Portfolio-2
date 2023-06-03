@@ -4,6 +4,10 @@
     src: url(/src/assets/fonts/Boogaloo-Regular.ttf) format('TrueType');
   }
   @font-face {
+    font-family: 'ComicNeue';
+    src: url(/src/assets/fonts/ComicNeue-Regular.ttf) format('TrueType');
+  }
+  @font-face {
     font-family: 'Merienda-Regular';
     src: url(/src/assets/fonts/Merienda-Regular.ttf) format('TrueType');
   }
@@ -48,7 +52,7 @@ h5 {
 }
 
 p {
-  font-family: 'Merienda-Regular';
+  font-family: 'ComicNeue';
   padding: 0px;
   margin: 0px;
 }
