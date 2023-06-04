@@ -9,7 +9,7 @@ import { SpecificProject } from './pages/Project/Specific';
 export function Main() {
   return (
     <>
-      <main className=" bg-slate-100 px-2">
+      <main className=" bg-slate-100 px-2 py-8">
         <div>
           <div>
             <Outlet />
