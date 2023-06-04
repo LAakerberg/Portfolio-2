@@ -29,7 +29,7 @@ export function SpecificData(data) {
             rel="noreferrer"
           >
             <img
-              src="/src/assets/icons/GitHub-Mark-32px.png"
+              src="../../src/assets/icons/GitHub-Mark-32px.png"
               className="github m-auto"
             />
             Github
