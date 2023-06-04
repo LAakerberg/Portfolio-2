@@ -9,8 +9,10 @@ export function SpecificProject() {
 
   return (
     <div className="w-full flex flex-col m-auto">
-      <div className="m-auto pt-6 text-center">
-        <h3>Portfolio</h3>
+      <div className="m-auto text-center border-b-2 border-slate-400 w-4/5 lg:max-w-6xl pb-1">
+        <h2 className="">Project</h2>
+      </div>
+      <div className="m-auto text-center pt-2">
         <h4>{data[id].title}</h4>
       </div>
       <div>
