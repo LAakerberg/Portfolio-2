@@ -95,10 +95,8 @@ export const portfolio = [
     name: 'New project',
     keywords: [''],
     descriptions: `This is an upcoming project.`,
-    imgThumb:
-      '/src/assets/img/portfolio/alexander-sinn-KgLtFCgfC28-unsplash-640.jpg',
-    imgHigh:
-      '/src/assets/img/portfolio/alexander-sinn-KgLtFCgfC28-unsplash-1920.jpg',
+    imgThumb: '/src/assets/img/portfolio/holidazeThumbNail.jpg',
+    imgHigh: '/src/assets/img/portfolio/holidazeScreenshotHigh.jpg',
     url: 'https://holidaze-summer.netlify.app/',
     urlGithub: 'https://github.com/LAakerberg/Holidaze-project-CA',
     completed: true,
