@@ -32,11 +32,6 @@
 
 /* Portfolio / Product card design */
 
-.product-link {
-  text-decoration: none;
-  color: #000;
-}
-
 .product-card {
   border-radius: 10px;
   margin: 15px;
@@ -204,6 +199,8 @@ span {
 
 .github {
   padding-left: 3px;
+  width: 36px;
+  height: 36px;
 }
 
 /* Errors */

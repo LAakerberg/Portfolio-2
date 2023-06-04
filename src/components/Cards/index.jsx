@@ -2,8 +2,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 export function Cards({ project, showInProgress }) {
-  console.log(project);
-
   Cards.propTypes = {
     project: PropTypes.string.isRequired,
     showInProgress: PropTypes.string.isRequired,
@@ -16,27 +14,31 @@ export function Cards({ project, showInProgress }) {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-6 p-4 m-auto">
-        {filteredProjects.map((pages) => (
-          <div key={pages.id}>
-            <Link to={`/project/${pages.id}`}>
-              <div className="bg-gradient-to-b from-gray-400 via-zinc-300 to-slate-100 card-bg outline outline-1 outline-slate-500 rounded-lg p-2 h-96 max-w-xs m-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-10 p-4 m-auto">
+        {filteredProjects.map((portfolio) => (
+          <div key={portfolio.id}>
+            <Link to={`/project/${portfolio.id}`}>
+              <div className="bg-gradient-to-b from-gray-300 via-zinc-300 to-slate-100 outline outline-1 outline-slate-500 rounded-lg p-2 max-h-full md:h-96 max-w-xs m-auto hover:drop-shadow-xl hover:scale-105 hover:-translate-y-6 transition-all">
                 <div>
                   <h4 className="font-['ComicNeue'] font-bold">
-                    {pages.title}
+                    {portfolio.title}
                   </h4>
                 </div>
                 <div className="h-40">
                   <img
-                    src={pages.imgThumb}
-                    className="object-cover h-40 w-full"
+                    src={portfolio.imgThumb}
+                    className="object-cover h-40 w-full rounded-lg"
                   />
                 </div>
                 <div>
-                  <h5 className="font-['Boogaloo']">{pages.name}</h5>
+                  <h5 className="font-['Boogaloo']">{portfolio.name}</h5>
                 </div>
                 <div>
-                  <p>{pages.descriptions.slice(0, 150)}</p>
+                  <p className="break-words">
+                    {portfolio.descriptions.length > 150
+                      ? `${portfolio.descriptions.slice(0, 152)}...`
+                      : portfolio.descriptions}
+                  </p>
                 </div>
               </div>
             </Link>

@@ -19,7 +19,7 @@ export function Portfolio() {
 
   return (
     <>
-      <div className="flex flex-col pt-6">
+      <div className="flex flex-col">
         <div>
           <h3 className="pb-4">Portfolio</h3>
         </div>
