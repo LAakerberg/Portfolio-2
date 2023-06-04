@@ -52,26 +52,22 @@ export const portfolio = [
     keywords: ['Onedesign'],
     descriptions: `This is my own portfolio site were you will find all of my completed/on-going and up-coming projects.
                         Here will I try to collect all of my libirayrs.`,
-    imgThumb:
-      '/src/assets/img/portfolio/emile-perron-xrVDYZRGdw4-unsplash-640.jpg',
-    imgHigh:
-      '/src/assets/img/portfolio/emile-perron-xrVDYZRGdw4-unsplash-1920.jpg',
-    url: '',
-    urlGithub: '',
+    imgThumb: '/src/assets/img/portfolio/onedesignScreenshotThumbnail.jpg',
+    imgHigh: '/src/assets/img/portfolio/onedesignScreenshotHigh.jpg',
+    url: 'https://frolicking-monstera-3929fd.netlify.app/about.html',
+    urlGithub: 'https://github.com/LAakerberg/Onedesign',
     completed: true,
     inProgress: false,
   },
   {
     id: 4,
     title: 'Semester Project 2',
-    name: 'New project',
-    keywords: [''],
-    descriptions: `This is an upcoming project.`,
-    imgThumb:
-      '/src/assets/img/portfolio/alexander-sinn-KgLtFCgfC28-unsplash-640.jpg',
-    imgHigh:
-      '/src/assets/img/portfolio/alexander-sinn-KgLtFCgfC28-unsplash-1920.jpg',
-    url: '',
+    name: 'Zero Bud',
+    keywords: ['Zero Bud, Auction house, Gaming, Products'],
+    descriptions: `ZERO BUD, we are your new action house where you will find loads of games, hardware and software. We also have in-game coins for all the big games and services.`,
+    imgThumb: '/src/assets/img/portfolio/zeroBudScreenshotHigh.jpg',
+    imgHigh: '/src/assets/img/portfolio/zeroBudScreenshotHigh.jpg',
+    url: 'https://dapper-dusk-087efd.netlify.app/',
     urlGithub: 'https://github.com/LAakerberg/semester_project_ca',
     completed: false,
     inProgress: false,
@@ -79,13 +75,15 @@ export const portfolio = [
   {
     id: 5,
     title: 'JavaScript Frameworks CA',
-    name: 'Hard core programming',
-    keywords: [''],
-    descriptions: `This is an upcoming project.`,
-    imgThumb: '',
-    imgHigh: '',
+    name: 'Vision Store',
+    keywords: ['eComm, shopping, products'],
+    descriptions: `Welcome to Vision Store
+    At Vision Store will you find almost everything you would ever want.
+    Visit our product page to find more about our products.`,
+    imgThumb: '/src/assets/img/portfolio/visionStoreScreenshootThumbnail.jpg',
+    imgHigh: '/src/assets/img/portfolio/visionStoreScreenshootHigh.jpg',
     url: 'https://meek-pika-e025e2.netlify.app/',
-    urlGithub: '',
+    urlGithub: 'https://github.com/LAakerberg/online-shop-project',
     completed: false,
     inProgress: true,
   },
@@ -116,20 +114,5 @@ export const portfolio = [
     urlGithub: '',
     completed: false,
     inProgress: true,
-  },
-  {
-    id: 8,
-    title: 'New project',
-    name: 'New project',
-    keywords: ['Onedesign'],
-    descriptions: `This is an upcoming project`,
-    imgThumb:
-      '/src/assets/img/portfolio/emile-perron-xrVDYZRGdw4-unsplash-640.jpg',
-    imgHigh:
-      '/src/assets/img/portfolio/emile-perron-xrVDYZRGdw4-unsplash-1920.jpg',
-    url: '',
-    urlGithub: '',
-    completed: false,
-    inProgress: false,
   },
 ];
