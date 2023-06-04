@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { portfolio } from '/src/data/portfolioData.js'; // Import the portfolio data directly
+import { portfolio } from '/src/data/portfolioData.jsx'; // Import the portfolio data directly
 import { SpecificData } from '../../../components/Specific';
 
 const data = portfolio;
