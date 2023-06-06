@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Nav } from '../Navigation/index';
+import { Link } from 'react-router-dom';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +15,9 @@ export function Header() {
         {/* Height should be in 220 px normally */}
         <div className="flex flex-row h-48">
           <div className="flex-1 flex flex-col m-0 justify-center items-center">
-            <h1 className="tablet:text-7xl logo_type uppercase">Onedesign</h1>
+            <Link to="/">
+              <h1 className="tablet:text-7xl logo_type uppercase">Onedesign</h1>
+            </Link>
             <p className="logo-memo">Only one design needed</p>
           </div>
 
