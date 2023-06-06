@@ -1,0 +1,21 @@
+/* Global styles for badges */
+
+.badge {
+  color: #fff;
+  font-family: 'Squada One';
+  font-size: 18px;
+  padding: 5px 20px;
+  background: linear-gradient(190deg, #004e72, #0070a4);
+  outline: 2px solid #004e72;
+  filter: drop-shadow(0 0 0.2rem rgb(0, 78, 164));
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.badge:hover {
+  transition: 0.5s;
+  padding: 6px 21px;
+  outline: 2px solid #e0e0e0;
+  filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
+}
