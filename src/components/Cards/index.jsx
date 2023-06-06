@@ -22,7 +22,7 @@ export function Cards({ project, showInProgress }) {
         {filteredProjects.map((portfolio) => (
           <div key={portfolio.id}>
             <Link to={`/project/${portfolio.id}`}>
-              <div className="bg-gradient-to-b from-gray-300 via-zinc-300 to-slate-100 outline outline-1 outline-slate-500 rounded-lg p-2 max-w-xs m-auto hover:drop-shadow-xl hover:scale-105 hover:-translate-y-6 transition-all">
+              <div className="bg-gradient-to-b from-gray-300 via-zinc-300 to-slate-100 outline outline-1 outline-slate-500 rounded-lg p-2 max-w-xs m-auto shadow-md shadow-gray-600/60 hover:shadow-xl hover:shadow-gray-700/100 hover:-translate-y-4 transition-all">
                 <div>
                   <h4 className="font-['ComicNeue'] font-bold">
                     {portfolio.title}
