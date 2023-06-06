@@ -44,7 +44,7 @@ export function Cards({ project, showInProgress }) {
                       : portfolio.descriptions}
                   </p>
                 </div>
-                <div>
+                <div className="py-2">
                   <div className="grid grid-cols-1 mobile:grid-cols-2 gap-4 w-fit">
                     {portfolio.completed ? <Complete /> : <InComplete />}
                     {portfolio.inProgress ? <InProgress /> : null}
