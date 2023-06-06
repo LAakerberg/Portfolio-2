@@ -37,7 +37,7 @@ export function Cards({ project, showInProgress }) {
                 <div>
                   <h5 className="font-['Boogaloo']">{portfolio.name}</h5>
                 </div>
-                <div className="h-28">
+                <div className="h-auto tablet:h-28">
                   <p className="break-words">
                     {portfolio.descriptions.length > 150
                       ? `${portfolio.descriptions.slice(0, 152)}...`
