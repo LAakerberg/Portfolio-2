@@ -11,6 +11,8 @@ import visionStoreThumb from '../assets/img/portfolio/visionStoreScreenshootThum
 import visionStoreHigh from '../assets/img/portfolio/visionStoreScreenshootHigh.jpg';
 import holidazeImgThumb from '../assets/img/portfolio/holidazeThumbNail.jpg';
 import holidazeImgHigh from '../assets/img/portfolio/holidazeScreenshotHigh.jpg';
+import onedesignImgHighV2 from '../assets/img/portfolio/onedesignScreenshotHighV2.jpg';
+import onedesignImgThumbV2 from '../assets/img/portfolio/onedesignScreenshotThumbV2.jpg';
 
 export const portfolio = [
   {
@@ -131,8 +133,8 @@ export const portfolio = [
     keywords: ['onedesign', 'portfolio', 'projects'],
     descriptions: `Refactoring my old Portfolio site from regular HTML, CSS & Vanilla JavaScript to now include Vite.js as bundler and a dev server together with React.js
      library for handling the JavaScript framework part, added TailwindCSS as a CSS Framework. Future plan is to build or use my own back-end to handle this portfolio to sorting my projects and portfolio.`,
-    imgThumb: `${rainyDaysImgThumb}`,
-    imgHigh: `${rainyDaysImgThumb}`,
+    imgThumb: `${onedesignImgThumbV2}`,
+    imgHigh: `${onedesignImgHighV2}`,
     url: 'https://calm-mochi-1fa4fd.netlify.app/portfolio',
     urlGithub: 'https://github.com/LAakerberg/Portfolio-2',
     techStack: ['html', 'css', 'react.js', 'vite.js', 'tailwindcss'],
