@@ -1,0 +1,11 @@
+/* Global style for success and error message */
+
+/* Errors */
+
+.error {
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: #fffeeb;
+  padding: 10px;
+  width: 50%;
+}
