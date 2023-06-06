@@ -89,7 +89,7 @@ export const portfolio = [
     url: 'https://github.com/LAakerberg/semester_project_ca',
     urlGithub: 'https://github.com/LAakerberg/semester_project_ca',
     techStack: [''],
-    completed: false,
+    completed: true,
     inProgress: false,
   },
   {
