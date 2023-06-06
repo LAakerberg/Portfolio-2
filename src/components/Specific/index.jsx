@@ -22,7 +22,7 @@ export function SpecificData(data) {
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-around w-1/2 m-auto py-4">
-        <div className="m-auto p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
+        <div className="m-auto mt-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
           <a
             href={`${project.urlGithub}`}
             className=""
@@ -33,7 +33,7 @@ export function SpecificData(data) {
             Github
           </a>
         </div>
-        <div className="m-auto p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
+        <div className="m-auto mt-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
           <a
             href={`${project.url}`}
             className=""

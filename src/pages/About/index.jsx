@@ -33,8 +33,8 @@ export function About() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-around w-1/2 m-auto">
-          <div className="m-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
+        <div className="flex flex-col md:flex-row justify-around w-1/2 m-auto py-4">
+          <div className="m-auto mt-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
             <a
               href="https://github.com/LAakerberg"
               className=""
@@ -45,7 +45,7 @@ export function About() {
               View my Github
             </a>
           </div>
-          <div className="m-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
+          <div className="m-auto mt-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
             <a
               href="https://www.linkedin.com/in/linus-%C3%A5kerberg-4126891b1/"
               className=""
