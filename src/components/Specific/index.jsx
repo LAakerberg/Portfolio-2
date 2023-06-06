@@ -1,4 +1,5 @@
 import { TbBrowser } from 'react-icons/tb';
+import githubImg from '../../assets/icons/GitHub-Mark-32px.png';
 
 export function SpecificData(data) {
   const project = data.data;
@@ -28,10 +29,7 @@ export function SpecificData(data) {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src="../../src/assets/icons/GitHub-Mark-32px.png"
-              className="github m-auto"
-            />
+            <img src={githubImg} className="github m-auto" />
             Github
           </a>
         </div>
