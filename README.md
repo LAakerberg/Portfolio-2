@@ -9,9 +9,9 @@ Here will a publish all of my finish projects/portfolio and also add new project
 
 ## Building
 
-- Vite.js as a bundler and dev server.
-- React.js as a JS Framework library
-- TailwindCSS as a CSS Framework
+- Vite.js - As a bundler and dev server.
+- React.js - As a JS Framework library
+- TailwindCSS - As a CSS Framework
 
 ### Development Dependencies
 
