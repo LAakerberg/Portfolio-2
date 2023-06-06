@@ -1,6 +1,6 @@
 ## Portfolio 2
 
-![Portfolio 2](https://github.com/seung-yeon-kim/seung-yeon-kim.github.io/blob/master/images/portfolio2.png?raw=true)
+![onedesignScreenshotHighV2](https://github.com/LAakerberg/Portfolio-2/assets/44141432/ad761f96-a5e5-4cda-9c73-400e4bc185db)
 
 ### Portfolio Project Dependencies
 
