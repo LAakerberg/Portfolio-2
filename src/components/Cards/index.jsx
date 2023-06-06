@@ -1,11 +1,15 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import { Complete, InProgress, InComplete } from '../Badges';
 
 export function Cards({ project, showInProgress }) {
   Cards.propTypes = {
     project: PropTypes.string.isRequired,
     showInProgress: PropTypes.string.isRequired,
   };
+
+  console.log(project[0].completed);
+  console.log(showInProgress);
 
   // Filter the array based on the showInProgress prop
   const filteredProjects = project.filter(
@@ -18,7 +22,7 @@ export function Cards({ project, showInProgress }) {
         {filteredProjects.map((portfolio) => (
           <div key={portfolio.id}>
             <Link to={`/project/${portfolio.id}`}>
-              <div className="bg-gradient-to-b from-gray-300 via-zinc-300 to-slate-100 outline outline-1 outline-slate-500 rounded-lg p-2 max-h-full md:h-96 max-w-xs m-auto hover:drop-shadow-xl hover:scale-105 hover:-translate-y-6 transition-all">
+              <div className="bg-gradient-to-b from-gray-300 via-zinc-300 to-slate-100 outline outline-1 outline-slate-500 rounded-lg p-2 max-w-xs m-auto hover:drop-shadow-xl hover:scale-105 hover:-translate-y-6 transition-all">
                 <div>
                   <h4 className="font-['ComicNeue'] font-bold">
                     {portfolio.title}
@@ -33,20 +37,23 @@ export function Cards({ project, showInProgress }) {
                 <div>
                   <h5 className="font-['Boogaloo']">{portfolio.name}</h5>
                 </div>
-                <div>
+                <div className="h-28">
                   <p className="break-words">
                     {portfolio.descriptions.length > 150
                       ? `${portfolio.descriptions.slice(0, 152)}...`
                       : portfolio.descriptions}
                   </p>
                 </div>
+                <div>
+                  <div className="grid grid-cols-1 mobile:grid-cols-2 gap-4 w-fit">
+                    {portfolio.completed ? <Complete /> : <InComplete />}
+                    {portfolio.inProgress ? <InProgress /> : null}
+                  </div>
+                </div>
               </div>
             </Link>
           </div>
         ))}
-
-        <div></div>
-        <div></div>
       </div>
     </>
   );

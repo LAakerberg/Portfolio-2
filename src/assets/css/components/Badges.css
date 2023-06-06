@@ -1,6 +1,6 @@
 /* Global styles for badges */
 
-.badge {
+/* .badge {
   color: #fff;
   font-family: 'Squada One';
   font-size: 18px;
@@ -18,4 +18,20 @@
   padding: 6px 21px;
   outline: 2px solid #e0e0e0;
   filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
+} */
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.badge.complete {
+  outline-style: 1px solid green;
+}
+.badge.in_progress {
+  outline-style: 1px solid green;
+}
+.badge.in_complete {
+  outline-style: 1px solid green;
 }
