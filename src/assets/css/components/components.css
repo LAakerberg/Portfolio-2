@@ -1,3 +1,5 @@
 /* Import of components ccs */
 
 @import '/src/assets/css/components/Navigation.css';
+@import '/src/assets/css/components/Icons.css';
+@import '/src/assets/css/components/Messages.css';

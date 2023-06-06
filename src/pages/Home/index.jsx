@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export function Home() {
   return (
     <>
@@ -14,9 +16,14 @@ export function Home() {
             design and solutions that&#39;s fits for you.
           </p>
           <p className="py-4">
-            Onedesign is a freelancer company that&#39;s can help you and or
-            company to get started on the web. Together can we find the best
-            design and solutions that&#39;s fits for you.
+            Yo can find more about Onedesign on our{' '}
+            <Link
+              to="/about"
+              className="font-bold underline underline-offset-2"
+            >
+              About page
+            </Link>
+            .
           </p>
         </div>
       </div>
