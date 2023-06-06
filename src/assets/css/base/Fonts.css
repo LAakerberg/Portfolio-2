@@ -12,13 +12,13 @@
     src: url(/src/assets/fonts/Merienda-Regular.ttf) format('TrueType');
   }
   @font-face {
-    font-family: 'Squada One';
+    font-family: 'Squada-One';
     src: url(/src/assets/fonts/SquadaOne-Regular.ttf) format('TrueType');
   }
 }
 
 .logo_type {
-  font-family: 'Squada One';
+  font-family: 'Squada-One';
   padding: 0px;
   color: #003545;
   cursor: pointer;
