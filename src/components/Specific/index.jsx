@@ -6,7 +6,7 @@ export function SpecificData(data) {
   console.log(project);
 
   return (
-    <div className="flex flex-col bg-slate-300 w-4/5 lg:max-w-6xl m-auto p-2 rounded-lg my-8 ma">
+    <div className="flex flex-col bg-slate-300 w-4/5 lg:max-w-6xl m-auto p-2 rounded-lg my-2">
       <div className="m-auto">
         <img
           src={project.imgHigh}
@@ -21,8 +21,8 @@ export function SpecificData(data) {
           <p>{project.descriptions}</p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-around w-1/2 m-auto">
-        <div className="m-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white">
+      <div className="flex flex-col md:flex-row justify-around w-1/2 m-auto py-4">
+        <div className="m-auto p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
           <a
             href={`${project.urlGithub}`}
             className=""
@@ -33,7 +33,7 @@ export function SpecificData(data) {
             Github
           </a>
         </div>
-        <div className="m-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white">
+        <div className="m-auto p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
           <a
             href={`${project.url}`}
             className=""
