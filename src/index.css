@@ -40,6 +40,22 @@
   }
 }
 
+@media screen and (min-width: 700px) {
+  header,
+  main,
+  footer {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  header,
+  main,
+  footer {
+    width: 80%;
+  }
+}
+
 h1 {
   font-family: SquadaOne;
 }
