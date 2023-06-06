@@ -21,24 +21,20 @@ export function About() {
           <div className="mt-4 text-left">
             <p className="text-lg font-bold py-2">Welcome to Onedesign.</p>
             <p className="py-2">
-              My name is Linus Aakerberg and I'm today study to become an
-              front-end developer. This is my portfolio site were all of my
-              projects and portfolio will be published as soon as they begin.
-              Onedesign was started up and will be a part of my start-up company
-              during my studies.
+              My name is Linus Aakerberg and I'm today finish my study to become
+              an front-end developer. This is my portfolio site were all of my
+              on-going projects and portfolio will be published as soon as they
+              begins and ends. Onedesign was started up as a part of my start-up
+              company during my studies and will continue to be my personal
+              portfolio/company site.
             </p>
-            <ul>
-              <li>Design</li>
-              <li>Design</li>
-              <li>Design</li>
-            </ul>
             <p className="py-2">
               Visit my social media if you would like to contact me.
             </p>
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-around w-1/2 m-auto">
-          <div className="m-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white">
+          <div className="m-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
             <a
               href="https://github.com/LAakerberg"
               className=""
@@ -49,7 +45,7 @@ export function About() {
               View my Github
             </a>
           </div>
-          <div className="m-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white">
+          <div className="m-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
             <a
               href="https://www.linkedin.com/in/linus-%C3%A5kerberg-4126891b1/"
               className=""
