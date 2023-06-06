@@ -13,6 +13,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "esbuild": "^0.17.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
