@@ -2,12 +2,16 @@
 
 ![onedesignScreenshotHighV2](https://github.com/LAakerberg/Portfolio-2/assets/44141432/ad761f96-a5e5-4cda-9c73-400e4bc185db)
 
-### Portfolio Project Dependencies
+### Description
 
-- React
-- React-dom
-- React-icons
-- React-router-dom
+This is my new Portfolio website. It's very basic and clear design.
+Here will a publish all of my finish projects/portfolio and also add new projects that's is in progress.
+
+## Building
+
+- Vite.js as a bundler and dev server.
+- React.js as a JS Framework library
+- TailwindCSS as a CSS Framework
 
 ### Development Dependencies
 
@@ -17,8 +21,6 @@
 - Lint-staged
 - Postcss
 - Prettier
-- Tailwindcss
-- Vite
 
 ## Netlify Production page:
 
