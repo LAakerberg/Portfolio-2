@@ -8,9 +8,6 @@ export function Cards({ project, showInProgress }) {
     showInProgress: PropTypes.string.isRequired,
   };
 
-  console.log(project[0].completed);
-  console.log(showInProgress);
-
   // Filter the array based on the showInProgress prop
   const filteredProjects = project.filter(
     (pages) => pages.inProgress === showInProgress
