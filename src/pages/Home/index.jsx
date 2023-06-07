@@ -9,7 +9,7 @@ export function Home() {
         </div>
       </div>
       <div className="flex flex-col pt-6 w-5/6 m-auto">
-        <div className="flex-initial w-4/5 border border-slate-600 bg-slate-300 text-black rounded-lg m-auto p-2">
+        <div className="flex-initial w-4/5 border border-slate-600 bg-slate-300 text-black rounded-lg m-auto p-2 animate-slow">
           <p className="whitespace-pre-line">
             Onedesign is a freelancer company that&#39;s can help you or your
             company to get started on the web. Together can we find the best
