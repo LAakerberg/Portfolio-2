@@ -3,7 +3,6 @@ import githubImg from '../../assets/icons/GitHub-Mark-32px.png';
 
 export function SpecificData(data) {
   const project = data.data;
-  console.log(project);
 
   return (
     <div className="flex flex-col bg-slate-300 w-4/5 lg:max-w-6xl m-auto p-2 rounded-lg my-2">
