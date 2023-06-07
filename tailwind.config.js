@@ -24,6 +24,28 @@ export default {
         '3xl': '1836px',
         // => @media (min-width: 1836px) { ... }
       },
+      animation: {
+        slowly: 'slow 0.2s ease-in-out',
+        slow: 'slow 0.6s ease-in-out',
+        'fade-in': 'fade-in 0.9s ease-in-out',
+        'fade-out': 'fade-out 0.9s ease-in-out',
+      },
+      keyframes: {
+        slow: {
+          '0%, 50%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        'fade-in': {
+          '0%': { opacity: '0', transform: 'translateX(-100%)' },
+          '70%': { opacity: '0.7', transform: 'translateX(10%)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
+        'fade-out': {
+          '0%': { opacity: '0', transform: 'translateX(0%)' },
+          '50%': { opacity: '1', transform: 'translateX(100%)' },
+          '100%': { opacity: '1', transform: 'translateX(500%)' },
+        },
+      },
     },
   },
   plugins: [

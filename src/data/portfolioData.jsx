@@ -88,7 +88,7 @@ export const portfolio = [
     But together with our partners you are able to find almost everything to buy between the earth and the sky.`,
     imgThumb: `${zerBudHigh}`,
     imgHigh: `${zerBudHigh}`,
-    url: 'https://github.com/LAakerberg/semester_project_ca',
+    url: 'https://dapper-dusk-087efd.netlify.app/',
     urlGithub: 'https://github.com/LAakerberg/semester_project_ca',
     techStack: [''],
     completed: true,
