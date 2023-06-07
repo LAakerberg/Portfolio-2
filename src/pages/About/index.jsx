@@ -10,7 +10,7 @@ export function About() {
           <h2 className="">About</h2>
         </div>
       </div>
-      <div className="flex flex-col bg-slate-300 w-4/5 lg:max-w-6xl m-auto p-2 rounded-lg my-8 ma">
+      <div className="flex flex-col bg-slate-300 w-4/5 lg:max-w-6xl m-auto p-2 rounded-lg my-8 animate-slow">
         <div className="m-auto mt-5">
           <img src={profileImg} className="w-60 object-contain rounded-full" />
         </div>

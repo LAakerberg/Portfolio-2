@@ -30,7 +30,10 @@ export function Cards({ project, showInProgress }) {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-10 p-4 m-auto">
         {filteredProjects.map((portfolio) => (
-          <div key={portfolio.id}>
+          <div
+            key={portfolio.id}
+            className="animate-fade-in animation-delay-100"
+          >
             <Link
               to="#"
               className=""
