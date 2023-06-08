@@ -28,7 +28,7 @@ export function SpecificProject() {
       </div>
 
       <div className="m-auto text-center pt-2">
-        <h4>{data[id].title}</h4>
+        <h3>{data[id].title}</h3>
       </div>
       <div>
         <div className="w-full m-auto animate-fade-in">
