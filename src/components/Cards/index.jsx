@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-import { Complete, InProgress, InComplete } from '../Badges';
+import { Complete, InProgress } from '../Badges';
 
 export function Cards({ project, showInProgress }) {
   Cards.propTypes = {
@@ -28,7 +28,7 @@ export function Cards({ project, showInProgress }) {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-10 p-4 m-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 4xl:grid-cols-5 gap-5 p-4 m-auto">
         {filteredProjects.map((portfolio) => (
           <div
             key={portfolio.id}
@@ -40,7 +40,7 @@ export function Cards({ project, showInProgress }) {
               onClick={() => handlePortfolioClick(portfolio.id)}
             >
               <div
-                className={`bg-gradient-to-b from-gray-300 via-zinc-300 to-slate-100 outline outline-1 outline-slate-500 rounded-lg p-2 max-w-xs m-auto shadow-md shadow-gray-600/60 hover:shadow-xl hover:shadow-gray-700/100 hover:-translate-y-4 transition-all ${
+                className={`w-80 bg-gradient-to-b from-gray-300 via-zinc-300 to-slate-100 outline outline-1 outline-slate-500 rounded-lg p-2 max-w-xs m-auto shadow-md shadow-gray-600/60 hover:shadow-xl hover:shadow-gray-700/100 hover:-translate-y-4 transition-all ${
                   clickedCardId === portfolio.id
                     ? 'animate-fade-out absolute z-10'
                     : ''
@@ -69,7 +69,7 @@ export function Cards({ project, showInProgress }) {
                 </div>
                 <div className="py-2">
                   <div className="grid grid-cols-1 mobile:grid-cols-2 gap-4 w-fit">
-                    {portfolio.completed ? <Complete /> : <InComplete />}
+                    {portfolio.completed ? <Complete /> : null}
                     {portfolio.inProgress ? <InProgress /> : null}
                   </div>
                 </div>
