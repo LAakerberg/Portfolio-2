@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { Complete, InProgress } from '../Badges';
 
-export function Cards({ project, showInProgress }) {
+export function Cards({ project /* showInProgress */ }) {
   Cards.propTypes = {
     project: PropTypes.string.isRequired,
     showInProgress: PropTypes.string.isRequired,
@@ -13,9 +13,9 @@ export function Cards({ project, showInProgress }) {
   const [clickedCardId, setClickedCardId] = useState(null);
 
   // Filter the array based on the showInProgress prop
-  const filteredProjects = project.filter(
+  /*   const filteredProjects = project.filter(
     (pages) => pages.inProgress === showInProgress
-  );
+  ); */
 
   const handlePortfolioClick = (id) => {
     setClickedCardId(id);
@@ -29,7 +29,7 @@ export function Cards({ project, showInProgress }) {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 4xl:grid-cols-5 gap-5 p-4 m-auto">
-        {filteredProjects.map((portfolio) => (
+        {project.map((portfolio) => (
           <div
             key={portfolio.id}
             className="animate-fade-in animation-delay-100"
