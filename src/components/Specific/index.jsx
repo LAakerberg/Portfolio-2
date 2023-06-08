@@ -5,7 +5,7 @@ export function SpecificData(data) {
   const project = data.data;
 
   return (
-    <div className="flex flex-col bg-slate-300 w-4/5 lg:max-w-6xl m-auto p-2 rounded-lg my-2">
+    <div className="flex flex-col bg-slate-100 sm:bg-slate-300 w-4/5 lg:max-w-6xl m-auto p-2 rounded-lg my-2">
       <div className="m-auto">
         <img
           src={project.imgHigh}
@@ -20,7 +20,7 @@ export function SpecificData(data) {
           <p>{project.descriptions}</p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-around w-1/2 m-auto py-4">
+      <div className="flex flex-col sm:flex-row justify-around w-1/2 m-auto py-4">
         <div className="m-auto mt-2 p-2 text-center w-28 hover:bg-slate-400/50 hover:font-bold transition-all rounded-xl hover:text-white border">
           <a
             href={`${project.urlGithub}`}
