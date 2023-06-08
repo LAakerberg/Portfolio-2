@@ -23,7 +23,7 @@ export function Cards({ project, showInProgress }) {
     // Delay redirection using setTimeout
     setTimeout(() => {
       history(`/project/${id}`);
-    }, 800); // Adjust the delay duration as needed
+    }, 900); // Adjust the delay duration as needed
   };
 
   return (
@@ -41,7 +41,9 @@ export function Cards({ project, showInProgress }) {
             >
               <div
                 className={`bg-gradient-to-b from-gray-300 via-zinc-300 to-slate-100 outline outline-1 outline-slate-500 rounded-lg p-2 max-w-xs m-auto shadow-md shadow-gray-600/60 hover:shadow-xl hover:shadow-gray-700/100 hover:-translate-y-4 transition-all ${
-                  clickedCardId === portfolio.id ? 'animate-fade-out' : ''
+                  clickedCardId === portfolio.id
+                    ? 'animate-fade-out absolute z-10'
+                    : ''
                 }`}
               >
                 <div>
@@ -58,7 +60,7 @@ export function Cards({ project, showInProgress }) {
                 <div>
                   <h5 className="font-['Boogaloo']">{portfolio.name}</h5>
                 </div>
-                <div className="h-auto tablet:h-28">
+                <div className="h-auto tablet:h-32">
                   <p className="break-words">
                     {portfolio.descriptions.length > 150
                       ? `${portfolio.descriptions.slice(0, 152)}...`
