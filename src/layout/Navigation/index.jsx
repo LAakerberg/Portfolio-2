@@ -6,26 +6,20 @@ export function Nav(toggleMenu) {
   return (
     <nav className="nav_link text-3xl">
       <ul>
-        <li className="">
-          <Link to="/" onClick={closeMenu}>
-            Home
-          </Link>
-        </li>
-        <li className="">
+        <Link to="/" onClick={closeMenu}>
+          <li className="">Home</li>
+        </Link>
+        <li className="hidden">
           <Link to="/portfolio" onClick={closeMenu}>
             Portfolio
           </Link>
         </li>
-        <li className="">
-          <Link to="/project" onClick={closeMenu}>
-            Projects
-          </Link>
-        </li>
-        <li className="">
-          <Link to="/about" onClick={closeMenu}>
-            About
-          </Link>
-        </li>
+        <Link to="/project" onClick={closeMenu}>
+          <li className="">Projects</li>
+        </Link>
+        <Link to="/about" onClick={closeMenu}>
+          <li className="">About</li>
+        </Link>
       </ul>
     </nav>
   );
