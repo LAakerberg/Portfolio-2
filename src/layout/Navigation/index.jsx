@@ -18,7 +18,7 @@ export function Nav(toggleMenu) {
         </li>
         <li className="">
           <Link to="/project" onClick={closeMenu}>
-            Project
+            Projects
           </Link>
         </li>
         <li className="">
