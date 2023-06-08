@@ -66,7 +66,7 @@ export const portfolio = [
   },
   {
     id: 3,
-    title: 'Portfolio 1 CA',
+    title: 'Portfolio 1',
     name: 'Onedesign Portfolio',
     keywords: ['onedesign', 'portfolio', 'projects'],
     descriptions: `This is my own portfolio site were you will find all of my completed/on-going and up-coming projects.
@@ -96,7 +96,7 @@ export const portfolio = [
   },
   {
     id: 5,
-    title: 'JavaScript Frameworks CA',
+    title: 'JavaScript Frameworks',
     name: 'Vision Store',
     keywords: ['ecomm', 'shopping', 'online'],
     descriptions: `This was the first project were I got familiar with JS Framework and React.js The Vision Store is a eComm were you can find all kind of products. From clothes, shoes, electronic and much more.
