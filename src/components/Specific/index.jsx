@@ -34,7 +34,9 @@ export function SpecificData(data) {
       </div>
       <div className="flex flex-col w-full m-auto p-2 rounded-lg my-2">
         <div className="">
-          <h5 className="underline underline-offset-4 font-bold">Tech stack</h5>
+          <h5 className="underline underline-offset-4 font-[Boogaloo]">
+            Tech stack
+          </h5>
         </div>
         <div id="icons" className="">
           <div className="tech-stack m-auto grid grid-cols-3 mobile:grid-cols-5 tablet:grid-cols-7 sm:grid-cols-9 md:grid-cols-10 lg:grid-cols-12 xl:grid-cols-16 gap-3 p-2 justify-start w-fit">
