@@ -6,6 +6,12 @@
 
 .icon {
   font-size: 36px;
+  width: 36px;
+  height: 33px;
+}
+.tech-stack_icons {
+  width: 52px;
+  height: 52px;
 }
 
 .github {
