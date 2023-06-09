@@ -28,9 +28,80 @@ export function About() {
               company during my studies and will continue to be my personal
               portfolio/company site.
             </p>
-            <p className="py-2">
-              Visit my social media if you would like to contact me.
-            </p>
+            <div>
+              <p className="font-[Boogaloo] text-2xl">Skills</p>
+              <ul className="grid grid-rows-2 md:grid-rows-none grid-flow-col justify-start gap-2">
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=html"
+                    alt="html"
+                    className="tech-stack_icons"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=css"
+                    alt="html"
+                    className="tech-stack_icons"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=js"
+                    alt="html"
+                    className="tech-stack_icons"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=react"
+                    alt="html"
+                    className="tech-stack_icons"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=bootstrap"
+                    alt="html"
+                    className="tech-stack_icons"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=tailwindcss"
+                    alt="html"
+                    className="tech-stack_icons"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=wordpress"
+                    alt="html"
+                    className="tech-stack_icons"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=vite"
+                    alt="html"
+                    className="tech-stack_icons"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=xd"
+                    alt="html"
+                    className="tech-stack_icons"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div className="pt-2">
+              <p className="font-[Boogaloo] text-2xl">Contact</p>
+              <p className="py-2">
+                Visit my social media if you would like to contact me.
+              </p>
+            </div>
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-around w-1/2 m-auto py-4">
