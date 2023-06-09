@@ -19,7 +19,9 @@ export function About() {
             <h3 className="font-bold">Onedesign</h3>
           </div>
           <div className="mt-4 text-left">
-            <p className="text-lg font-bold py-2">Welcome to Onedesign.</p>
+            <p className="text-2xl font-[Boogaloo] py-2">
+              Welcome to Onedesign.
+            </p>
             <p className="py-2">
               My name is Linus Aakerberg and I'm today finish my study to become
               an front-end developer. This is my portfolio site were all of my
@@ -29,7 +31,7 @@ export function About() {
               portfolio/company site.
             </p>
             <div>
-              <p className="font-[Boogaloo] text-2xl">Skills</p>
+              <p className="font-[Boogaloo] text-xl">Skills</p>
               <ul className="grid grid-rows-2 md:grid-rows-none grid-flow-col justify-start gap-2">
                 <li>
                   <img
@@ -97,7 +99,7 @@ export function About() {
               </ul>
             </div>
             <div className="pt-2">
-              <p className="font-[Boogaloo] text-2xl">Contact</p>
+              <p className="font-[Boogaloo] text-xl">Contact</p>
               <p className="py-2">
                 Visit my social media if you would like to contact me.
               </p>

@@ -16,13 +16,13 @@ export function SpecificProject() {
 
   return (
     <div className="w-full flex flex-col m-auto">
-      <div className="m-auto text-center border-b-2 border-slate-400 w-4/5 lg:max-w-6xl pb-1">
-        <div className="absolute left-1 mobile:static float-left m-auto text-center flex bg-slate-400/40 hover:bg-slate-400 backdrop-blur-md border border-black rounded-lg">
+      <div className="mobile:relative m-auto flex text-center border-b-2 border-slate-400 w-4/5 lg:max-w-6xl pb-1">
+        <div className="absolute left-1 top-48 mobile:left-2 mobile:top-2 flex-initial float-left m-auto text-center flex bg-slate-400/40 hover:bg-slate-400 backdrop-blur-md border border-black rounded-lg">
           <button onClick={goBack}>
             <HiArrowSmLeft className="icon" />
           </button>
         </div>
-        <div>
+        <div className="flex-1">
           <h2 className="">Project</h2>
         </div>
       </div>
